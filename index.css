@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 150px;
+}
+.nav-items > ul {
+  font-size: 20px;
+  display: flex;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.res-card {
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 280px;
+
+  padding: 5px;
+  height: 350px;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+/* .Search {
+  padding: 10px;
+} */
+.res-logo {
+  width: 100%;
+  height: 50%;
+}
+.res-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  font-size: 24px;
+}
+/* .Search:hover {
+  background-color: rgb(149, 146, 146);
+  border: 0.5px solid black;
+  margin: 5px;
+} */
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+  border: 0.25px solid black;
+  background-color: gray;
+}
+.duplicate-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 280px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: rgb(164, 160, 160);
+}
+.btn-React {
+  margin: 5px 20px;
+  border: 1px solid black;
+  background-color: gray;
+  border-radius: 12px;
+}
+.Search-box {
+  margin: 10px;
+  border: 1px solid black;
+}
+.btn-input {
+  border: 1px solid black;
+  background-color: gray;
+  margin: 10px;
+}
+.filter {
+  display: flex;
+  margin: 10px;
+}
+/* .error {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: red;
+} */
+
